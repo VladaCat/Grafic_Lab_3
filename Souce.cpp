@@ -217,7 +217,7 @@ int main()
 
 	fclose(pFile);
 
-	FILE *test1 = fopen("C:/photo/cat_medium.bmp", "w+b");
+	FILE *test1 = fopen("C:/photo/cat_sobel.bmp", "w+b");
 
 	write_u16(header.bfType, test1);
 	write_u32(header.bfSize, test1);
